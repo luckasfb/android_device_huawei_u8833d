@@ -1,4 +1,6 @@
-#Device configuration for Huawei Ascend Y300-0000/U8833D
+#######forked from josalaito/android_device_huawei_u8833
+
+#Device configuration for Huawei Ascend Y300-0000/U8833D,G510-0010/U8951D
 
 #Thanks to this amazing people for make it possible
 #---------------
