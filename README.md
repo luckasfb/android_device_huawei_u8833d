@@ -58,7 +58,6 @@ gedit .repo/local_manifest.xml
 <project name="josalaito/android_kernel_huawei_msm8x25" path="kernel/huawei/msm8x25" remote="github" revision="cm-10.1" />
 <project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
 <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
-<project name="xjljian/cmpatch" path="vendor/cm/" remote="github" revision="cm-10.1" />
 #Will make error,Delete me
 </manifest>
 #Will make error,Delete me
