@@ -48,14 +48,20 @@ gedit .repo/local_manifest.xml
 #code:
 
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>    "Will make error,Delete me"
+#Will make error,Delete me
+<manifest>
+#Will make error,Delete me
 <remove-project name="CyanogenMod/android_hardware_qcom_display" />
 <project path="hardware/qcom/display" name="LegacyDroid/android_hardware_qcom_display-legacy" remote="github" revision="jellybean" />
+#Will make error,Delete me
 <project name="xjljian/android_device_huawei_y300-0000_U8833D_new" path="device/huawei/U8833D" remote="github" revision="jellybean" />
 <project name="josalaito/android_kernel_huawei_msm8x25" path="kernel/huawei/msm8x25" remote="github" revision="cm-10.1" />
 <project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
 <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
-</manifest>   "Will make error,Delete me"
+<project name="xjljian/cmpatch" path="vendor/cm/" remote="github" revision="cm-10.1" />
+#Will make error,Delete me
+</manifest>
+#Will make error,Delete me
 
 #code end
 
