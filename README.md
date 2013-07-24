@@ -43,12 +43,11 @@ repo init -u git://github.com/CyanogenMod/android.git -b jellybean
 
 gedit .repo/local_manifest.xml
 
-#Then copy this code to local_manifest.xml, delete "Will make error,Delete me",and save it.
+#Then copy this code to local_manifest.xml,and save it.
 
 #code:
 
 <?xml version="1.0" encoding="UTF-8"?>
-#Will make error,Delete me
 <manifest>
 <remove-project name="CyanogenMod/android_hardware_qcom_display" />
 <project path="hardware/qcom/display" name="LegacyDroid/android_hardware_qcom_display-legacy" remote="github" revision="jellybean" />
@@ -57,7 +56,6 @@ gedit .repo/local_manifest.xml
 <project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
 <project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
 </manifest>
-#Will make error,Delete me
 
 #code end
 
