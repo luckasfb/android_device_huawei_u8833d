@@ -28,8 +28,10 @@ TARGET_USE_SPARROW_BIONIC_OPTIMIZATION := true
 TARGET_AVOID_DRAW_TEXTURE_EXTENSION := true
 TARGET_USES_16BPPSURFACE_FOR_OPAQUE := true
 
+#xjljian
 TARGET_BOOTLOADER_BOARD_NAME := U8833D
-TARGET_OTA_ASSERT_DEVICE := U8833D,hwU8833D,U8833D
+TARGET_OTA_ASSERT_DEVICE := U8833D,hwu8833d,u8833d,msm7627a,msm7627a,u8951d,hwY300-0000,hwG510-0010,u8951d
+#xjljian end
 
 # Qualcomm hardware
 BOARD_USES_QCOM_HARDWARE := true
@@ -58,12 +60,22 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
+#xjljian 07.23
+# RIL
+BOARD_RIL_CLASS := ../../../device/huawei/U8833D/ril/
+#xjljian end
+
 # OpenGL drivers config file path
 BOARD_EGL_CFG := device/huawei/U8833D/prebuilt/system/lib/egl/egl.cfg
 
 USE_OPENGL_RENDERER := true
 TARGET_USES_OVERLAY := true
 TARGET_USES_ION := true
+
+#xjljian 07.23
+TARGET_QCOM_DISPLAY_VARIANT := legacy
+#xjljian end
+
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60
 
 # Webkit
