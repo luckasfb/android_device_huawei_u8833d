@@ -79,6 +79,18 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml
+
+# xjljian 07.25
+PRODUCT_COPY_FILES += \
+    device/huawei/U8833D/prebuilt/system/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
+    device/huawei/U8833D/prebuilt/system/etc/init.ath3k.bt.sh:system/etc/init.ath3k.bt.sh \
+    device/huawei/U8833D/prebuilt/system/etc/init.qcom.post_fs.sh:system/etc/init.qcom.post_fs.sh \
+    device/huawei/U8833D/prebuilt/system/etc/init.qcom.thermald_conf.sh:system/etc/init.qcom.thermald_conf.sh \
+    device/huawei/U8833D/prebuilt/system/etc/init.target.8x25.sh:system/etc/init.target.8x25.sh \
+    device/huawei/U8833D/prebuilt/system/etc/qosmgr_rules.xml:system/etc/qosmgr_rules.xml \
+    device/huawei/U8833D/prebuilt/system/etc/thermald-8x25-msm1-pmic_therm.conf:system/etc/thermald-8x25-msm1-pmic_therm.conf \
+    device/huawei/U8833D/prebuilt/system/etc/thermald.conf:system/etc/thermald.conf
+# by xjljian end
     
 PRODUCT_COPY_FILES += \
     device/huawei/U8833D/ramdisk/init.huawei.rc:root/init.huawei.rc \
