@@ -50,7 +50,7 @@ gedit .repo/local_manifest.xml
 
 #####Code:代码:
 
-###<?xml version="1.0" encoding="UTF-8"?>
+##--<?xml version="1.0" encoding="UTF-8"?>
 ########-------------------
 <manifest>
 ########------------
