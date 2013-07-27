@@ -46,12 +46,12 @@ repo init -u git://github.com/CyanogenMod/android.git -b jellybean
 
 gedit .repo/local_manifest.xml
 
-###########Then copy this code to local_manifest.xml,and save it.(将以下代码复制到local_manifest.xml中保存,首先要删掉所有"#"符号,再保存.接着进行下一步操作)
+###########Then copy this code to local_manifest.xml,and save it.(将以下代码复制到local_manifest.xml中保存,首先要删掉所有"#-"符号,再保存.接着进行下一步操作)
 
 #####Code:代码:
 
-##--<?xml version="1.0" encoding="UTF-8"?>
-########-------------------
+<?xml version="1.0" encoding="UTF-8"?>
+########网页上不显示,下载后再看
 <manifest>
 ########------------
 <remove-project name="CyanogenMod/android_hardware_qcom_display" />
