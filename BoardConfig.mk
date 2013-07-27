@@ -30,7 +30,7 @@ TARGET_USES_16BPPSURFACE_FOR_OPAQUE := true
 
 #xjljian
 TARGET_BOOTLOADER_BOARD_NAME := U8833D
-TARGET_OTA_ASSERT_DEVICE := U8833D,hwu8833d,u8833d,msm7627a,msm7627a,u8951d,hwY300-0000,hwG510-0010,u8951d
+TARGET_OTA_ASSERT_DEVICE := U8833D,hwu8833d,u8833d,msm7627a,hwY300-0000,hwG510-0010,u8951d,U8951D,hwU8951D
 #xjljian end
 
 # Qualcomm hardware
@@ -60,9 +60,9 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
 
-#xjljian 07.23
+#xjljian 07.23 07.27
 # RIL
-BOARD_RIL_CLASS := ../../../device/huawei/U8833D/ril/
+#BOARD_RIL_CLASS := ../../../device/huawei/U8833D/ril/
 #xjljian end
 
 # OpenGL drivers config file path
