@@ -46,25 +46,19 @@ repo init -u git://github.com/CyanogenMod/android.git -b jellybean
 
 gedit .repo/local_manifest.xml
 
-###########Then copy this code to local_manifest.xml,and save it.(将以下代码复制到local_manifest.xml中保存,首先要删掉所有"#-"符号,再保存.接着进行下一步操作)
+###########Then copy this code to local_manifest.xml,and save it.(将以下代码复制到local_manifest.xml中保存,首先要删掉所有"#"符号,再保存.接着进行下一步操作)
 
 #####Code:代码:
 
-<?xml version="1.0" encoding="UTF-8"?>
-########网页上不显示,下载后再看
-<manifest>
-########------------
-<remove-project name="CyanogenMod/android_hardware_qcom_display" />
-<project name="xjljian/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jellybean" />
-#######-----------
-<project name="xjljian/android_device_huawei_y300-0000_U8833D_new" path="device/huawei/U8833D" remote="github" revision="jellybean" />
-<project name="xjljian/android_kernel_huawei_msm8x25" path="kernel/huawei/msm8x25" remote="github" revision="cm-10.1" />
-#########-----------
-<project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
-<project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
-########-----------
-</manifest>
-########----------
+<###?xml version="1.0" encoding="UTF-8"?>
+<###manifest>
+<###remove-project name="CyanogenMod/android_hardware_qcom_display" />
+<###project name="xjljian/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jellybean" />
+<###project name="xjljian/android_device_huawei_y300-0000_U8833D_new" path="device/huawei/U8833D" remote="github" revision="jellybean" />
+<###project name="xjljian/android_kernel_huawei_msm8x25" path="kernel/huawei/msm8x25" remote="github" revision="cm-10.1" />
+<###project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
+<###project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
+<###/manifest>
 
 #####Code end,结束
 
