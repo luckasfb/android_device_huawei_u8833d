@@ -51,13 +51,21 @@ gedit .repo/local_manifest.xml
 #####Code:代码:
 
 <###?xml version="1.0" encoding="UTF-8"?>
+
 <###manifest>
+
 <###remove-project name="CyanogenMod/android_hardware_qcom_display" />
+
 <###project name="xjljian/android_hardware_qcom_display" path="hardware/qcom/display" remote="github" revision="jellybean" />
+
 <###project name="xjljian/android_device_huawei_y300-0000_U8833D_new" path="device/huawei/U8833D" remote="github" revision="jellybean" />
+
 <###project name="xjljian/android_kernel_huawei_msm8x25" path="kernel/huawei/msm8x25" remote="github" revision="cm-10.1" />
+
 <###project name="xjljian/proprietary_vendor_huawei_U8833D" path="vendor/huawei/" remote="github" revision="jellybean" />
+
 <###project name="CyanogenMod/android_hardware_atheros_wlan" path="hardware/atheros/wlan" remote="github" revision="jellybean" />
+
 <###/manifest>
 
 #####Code end,结束
