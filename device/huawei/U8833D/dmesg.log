@@ -1,0 +1,1586 @@
+sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  966.734796] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.734866] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  966.734887] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.734961] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  966.734984] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735062] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  966.735084] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735159] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  966.735181] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735249] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  966.735271] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735341] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  966.735362] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735431] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  966.735452] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735521] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  966.735542] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  966.735612] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  966.735634] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  966.736617] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  966.739744] PM: suspend of devices complete after 57.064 msecs
+<6>[27, kworker/u:2] [  966.740264] PM: late suspend of devices complete after 0.491 msecs
+<6>[27, kworker/u:2] [  966.741181] PM: noirq suspend of devices complete after 0.890 msecs
+<4>[27, kworker/u:2] [  966.741201] Disabling non-boot CPUs ...
+<4>[4491, kworker/1:2] [  966.743156] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  966.743487] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  966.744374] CPU1 is up
+<6>[27, kworker/u:2] [  966.745006] PM: noirq resume of devices complete after 0.605 msecs
+<6>[3, ksoftirqd/0] [  966.745502] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  966.746182] PM: early resume of devices complete after 0.496 msecs
+<4>[27, kworker/u:2] [  966.748041] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  966.753144] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  966.753159] 
+<6>[27, kworker/u:2] [  966.754777] PM: resume of devices complete after 8.566 msecs
+<4>[27, kworker/u:2] [  966.755324] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  966.771696] PM: suspend exit 2013-07-27 01:33:02.018336667 UTC
+<6>[27, kworker/u:2] [  966.771736] suspend: exit suspend, ret = -1 (2013-07-27 01:33:02.018391667 UTC)
+<6>[27, kworker/u:2] [  966.771764] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  966.771781] active wake lock PowerManagerService
+<6>[27, kworker/u:2] [  966.771799] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  967.047651] PM: suspend entry 2013-07-27 01:33:02.294293334 UTC
+<4>[3076, kworker/u:3] [  967.047712] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  967.072321] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[3076, kworker/u:3] [  967.321639] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  967.341962] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  967.346847] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  967.346862] 
+<4>[3076, kworker/u:3] [  967.350832] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  967.352499] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  967.370386] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  967.394636] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  967.394659] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.394729] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  967.394752] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.394826] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  967.394849] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.394917] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  967.394941] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395009] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  967.395031] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395101] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  967.395122] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395192] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  967.395214] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395284] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  967.395306] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395374] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  967.395397] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  967.395466] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  967.395487] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  967.396477] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  967.399729] PM: suspend of devices complete after 57.044 msecs
+<6>[3076, kworker/u:3] [  967.400236] PM: late suspend of devices complete after 0.478 msecs
+<6>[3076, kworker/u:3] [  967.401156] PM: noirq suspend of devices complete after 0.893 msecs
+<4>[3076, kworker/u:3] [  967.401177] Disabling non-boot CPUs ...
+<4>[4497, kworker/1:1] [  967.403201] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  967.403531] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  967.404416] CPU1 is up
+<6>[3076, kworker/u:3] [  967.405042] PM: noirq resume of devices complete after 0.600 msecs
+<6>[3, ksoftirqd/0] [  967.405539] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  967.406227] PM: early resume of devices complete after 0.503 msecs
+<4>[3076, kworker/u:3] [  967.407971] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  967.412846] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  967.412861] 
+<6>[3076, kworker/u:3] [  967.414366] PM: resume of devices complete after 8.110 msecs
+<4>[3076, kworker/u:3] [  967.414881] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  967.423886] PM: suspend exit 2013-07-27 01:33:05.010831669 UTC
+<6>[3076, kworker/u:3] [  967.423921] suspend: exit suspend, ret = -1 (2013-07-27 01:33:05.010880002 UTC)
+<6>[3076, kworker/u:3] [  967.423949] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  967.423967] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  967.702407] PM: suspend entry 2013-07-27 01:33:05.289353336 UTC
+<4>[1055, kworker/u:5] [  967.702491] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1055, kworker/u:5] [  967.722352] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  967.971646] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  967.991969] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  967.996872] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  967.996889] 
+<4>[1055, kworker/u:5] [  968.000886] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  968.002597] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  968.020466] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  968.044721] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  968.044744] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.044819] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  968.044842] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.044911] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  968.044934] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045002] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  968.045024] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045094] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  968.045116] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045186] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  968.045207] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045276] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  968.045299] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045367] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  968.045389] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045459] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  968.045481] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  968.045549] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  968.045571] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  968.046561] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  968.049676] PM: suspend of devices complete after 56.988 msecs
+<6>[1055, kworker/u:5] [  968.050201] PM: late suspend of devices complete after 0.495 msecs
+<6>[1055, kworker/u:5] [  968.051132] PM: noirq suspend of devices complete after 0.905 msecs
+<4>[1055, kworker/u:5] [  968.051152] Disabling non-boot CPUs ...
+<4>[4503, kworker/1:2] [  968.053124] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  968.053454] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  968.054346] CPU1 is up
+<6>[1055, kworker/u:5] [  968.054976] PM: noirq resume of devices complete after 0.601 msecs
+<6>[3, ksoftirqd/0] [  968.055474] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  968.056162] PM: early resume of devices complete after 0.505 msecs
+<4>[1055, kworker/u:5] [  968.057949] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  968.062946] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  968.062959] 
+<6>[1055, kworker/u:5] [  968.064594] PM: resume of devices complete after 8.401 msecs
+<4>[1055, kworker/u:5] [  968.065144] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  968.081667] PM: suspend exit 2013-07-27 01:33:08.018504999 UTC
+<6>[1055, kworker/u:5] [  968.081706] suspend: exit suspend, ret = -1 (2013-07-27 01:33:08.018563332 UTC)
+<6>[1055, kworker/u:5] [  968.081736] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  968.081752] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  968.349856] PM: suspend entry 2013-07-27 01:33:08.286704999 UTC
+<4>[27, kworker/u:2] [  968.349931] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  968.372344] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  968.621649] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  968.641977] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  968.646821] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  968.646837] 
+<4>[27, kworker/u:2] [  968.650831] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  968.652502] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  968.670382] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  968.694614] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  968.694639] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.694712] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  968.694736] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.694804] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  968.694826] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.694879] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  968.694901] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.694961] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  968.694982] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.695061] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  968.695084] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.695152] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  968.695174] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.695254] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  968.695276] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.695349] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  968.695371] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  968.695451] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  968.695472] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  968.696461] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  968.699459] PM: suspend of devices complete after 56.761 msecs
+<6>[27, kworker/u:2] [  968.699969] PM: late suspend of devices complete after 0.481 msecs
+<6>[27, kworker/u:2] [  968.700894] PM: noirq suspend of devices complete after 0.898 msecs
+<4>[27, kworker/u:2] [  968.700916] Disabling non-boot CPUs ...
+<4>[4509, kworker/1:1] [  968.702904] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  968.703236] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  968.704136] CPU1 is up
+<6>[27, kworker/u:2] [  968.704769] PM: noirq resume of devices complete after 0.605 msecs
+<6>[3, ksoftirqd/0] [  968.705267] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  968.706102] PM: early resume of devices complete after 0.626 msecs
+<4>[27, kworker/u:2] [  968.707767] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  968.712591] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  968.712606] 
+<6>[27, kworker/u:2] [  968.714116] PM: resume of devices complete after 7.983 msecs
+<4>[27, kworker/u:2] [  968.714637] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  968.723749] PM: suspend exit 2013-07-27 01:33:11.010955000 UTC
+<6>[27, kworker/u:2] [  968.723782] suspend: exit suspend, ret = -1 (2013-07-27 01:33:11.011000000 UTC)
+<6>[27, kworker/u:2] [  968.723812] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  968.723829] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  969.016312] PM: suspend entry 2013-07-27 01:33:11.303511667 UTC
+<4>[1055, kworker/u:5] [  969.016427] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  969.042609] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  969.291707] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  969.312236] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  969.318926] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  969.318949] 
+<4>[1055, kworker/u:5] [  969.324259] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  969.326131] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  969.347209] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  969.374562] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  969.374599] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.374701] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  969.374732] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.374827] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  969.374861] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.374949] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  969.374981] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375064] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  969.375096] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375179] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  969.375211] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375287] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  969.375321] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375409] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  969.375441] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375524] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  969.375556] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  969.375632] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  969.375664] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  969.376841] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  969.381454] PM: suspend of devices complete after 68.231 msecs
+<6>[1055, kworker/u:5] [  969.382231] PM: late suspend of devices complete after 0.730 msecs
+<6>[1055, kworker/u:5] [  969.383537] PM: noirq suspend of devices complete after 1.265 msecs
+<4>[1055, kworker/u:5] [  969.383569] Disabling non-boot CPUs ...
+<4>[4515, kworker/1:2] [  969.386167] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  969.386624] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  969.387859] CPU1 is up
+<6>[1055, kworker/u:5] [  969.388719] PM: noirq resume of devices complete after 0.821 msecs
+<6>[3, ksoftirqd/0] [  969.389417] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  969.390346] PM: early resume of devices complete after 0.676 msecs
+<4>[1055, kworker/u:5] [  969.392637] batt_id_lim_volt = 4200
+<4>[1055, kworker/u:5] [  969.394591] msm_batt_update_psy_status: 1 callbacks suppressed
+<6>[1055, kworker/u:5] [  969.399459] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  969.399481] 
+<6>[1055, kworker/u:5] [  969.401841] PM: resume of devices complete after 11.453 msecs
+<4>[1055, kworker/u:5] [  969.402596] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  969.416366] PM: suspend exit 2013-07-27 01:33:14.016610000 UTC
+<6>[1055, kworker/u:5] [  969.416414] suspend: exit suspend, ret = -1 (2013-07-27 01:33:14.016671666 UTC)
+<6>[1055, kworker/u:5] [  969.416457] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  969.416482] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  969.746736] PM: suspend entry 2013-07-27 01:33:14.346980000 UTC
+<4>[27, kworker/u:2] [  969.746852] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  969.772659] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  970.021781] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  970.042181] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  970.048682] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  970.048704] 
+<4>[27, kworker/u:2] [  970.054544] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  970.056686] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  970.082812] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  970.114517] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  970.114552] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.114646] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  970.114677] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.114769] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  970.114801] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.114892] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  970.114924] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115016] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  970.115047] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115139] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  970.115171] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115264] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  970.115296] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115387] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  970.115419] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115511] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  970.115542] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  970.115634] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  970.115666] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  970.117121] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  970.121312] PM: suspend of devices complete after 78.145 msecs
+<6>[27, kworker/u:2] [  970.122162] PM: late suspend of devices complete after 0.805 msecs
+<6>[27, kworker/u:2] [  970.123486] PM: noirq suspend of devices complete after 1.281 msecs
+<4>[27, kworker/u:2] [  970.123516] Disabling non-boot CPUs ...
+<4>[4521, kworker/1:1] [  970.126134] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  970.126599] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  970.127831] CPU1 is up
+<6>[27, kworker/u:2] [  970.128686] PM: noirq resume of devices complete after 0.816 msecs
+<6>[3, ksoftirqd/0] [  970.129379] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  970.130331] PM: early resume of devices complete after 0.693 msecs
+<4>[27, kworker/u:2] [  970.132849] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  970.139391] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  970.139412] 
+<6>[27, kworker/u:2] [  970.141477] PM: resume of devices complete after 11.103 msecs
+<4>[27, kworker/u:2] [  970.142352] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  970.155589] PM: suspend exit 2013-07-27 01:33:17.015903334 UTC
+<6>[27, kworker/u:2] [  970.155641] suspend: exit suspend, ret = -1 (2013-07-27 01:33:17.015968334 UTC)
+<6>[27, kworker/u:2] [  970.155681] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  970.155707] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  970.485804] PM: suspend entry 2013-07-27 01:33:17.346118334 UTC
+<4>[1055, kworker/u:5] [  970.485917] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  970.512644] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  970.761731] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  970.782187] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  970.788749] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  970.788772] 
+<4>[1055, kworker/u:5] [  970.794392] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  970.796529] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  970.822739] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  970.854441] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  970.854476] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.854569] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  970.854602] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.854694] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  970.854726] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.854819] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  970.854851] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.854936] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  970.854967] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.855046] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  970.855077] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.855177] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  970.855211] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.855302] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  970.855336] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.855427] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  970.855459] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  970.855552] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  970.855584] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  970.857019] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  970.861277] PM: suspend of devices complete after 78.101 msecs
+<6>[1055, kworker/u:5] [  970.862121] PM: late suspend of devices complete after 0.798 msecs
+<6>[1055, kworker/u:5] [  970.863429] PM: noirq suspend of devices complete after 1.268 msecs
+<4>[1055, kworker/u:5] [  970.863459] Disabling non-boot CPUs ...
+<4>[4527, kworker/1:2] [  970.866084] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  970.866542] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  970.867789] CPU1 is up
+<6>[1055, kworker/u:5] [  970.868644] PM: noirq resume of devices complete after 0.816 msecs
+<6>[3, ksoftirqd/0] [  970.869346] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  970.870282] PM: early resume of devices complete after 0.683 msecs
+<4>[1055, kworker/u:5] [  970.872561] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  970.878824] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  970.878846] 
+<6>[1055, kworker/u:5] [  970.881039] PM: resume of devices complete after 10.715 msecs
+<4>[1055, kworker/u:5] [  970.881887] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  970.900929] PM: suspend exit 2013-07-27 01:33:20.021806667 UTC
+<6>[1055, kworker/u:5] [  970.900982] suspend: exit suspend, ret = -1 (2013-07-27 01:33:20.021878333 UTC)
+<6>[1055, kworker/u:5] [  970.901029] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  970.901054] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  971.216606] PM: suspend entry 2013-07-27 01:33:20.337490000 UTC
+<4>[27, kworker/u:2] [  971.216716] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  971.242659] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  971.491732] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  971.512252] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  971.518839] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  971.518861] 
+<4>[27, kworker/u:2] [  971.524464] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  971.526627] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  971.552832] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  971.584521] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  971.584557] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.584657] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  971.584689] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.584781] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  971.584812] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.584904] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  971.584936] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585027] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  971.585061] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585152] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  971.585184] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585276] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  971.585307] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585399] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  971.585431] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585522] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  971.585554] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  971.585647] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  971.585679] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  971.587132] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  971.591304] PM: suspend of devices complete after 78.064 msecs
+<6>[27, kworker/u:2] [  971.592159] PM: late suspend of devices complete after 0.810 msecs
+<6>[27, kworker/u:2] [  971.593481] PM: noirq suspend of devices complete after 1.280 msecs
+<4>[27, kworker/u:2] [  971.593511] Disabling non-boot CPUs ...
+<4>[4533, kworker/1:1] [  971.596159] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  971.596617] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  971.597852] CPU1 is up
+<6>[27, kworker/u:2] [  971.598702] PM: noirq resume of devices complete after 0.813 msecs
+<6>[3, ksoftirqd/0] [  971.599396] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  971.600322] PM: early resume of devices complete after 0.675 msecs
+<4>[27, kworker/u:2] [  971.602792] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  971.609164] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  971.609186] 
+<6>[27, kworker/u:2] [  971.611521] PM: resume of devices complete after 11.153 msecs
+<4>[27, kworker/u:2] [  971.612367] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  971.631772] PM: suspend exit 2013-07-27 01:33:23.022303334 UTC
+<6>[27, kworker/u:2] [  971.631827] suspend: exit suspend, ret = -1 (2013-07-27 01:33:23.022381667 UTC)
+<6>[27, kworker/u:2] [  971.631876] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  971.631901] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  971.921111] PM: suspend entry 2013-07-27 01:33:23.311668334 UTC
+<4>[27, kworker/u:2] [  971.921219] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  971.942082] HUAWEI suspend: suspend_sys_sync_done
+<4>[27, kworker/u:2] [  971.942097] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[27, kworker/u:2] [  971.961861] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  971.965609] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  971.965621] 
+<4>[27, kworker/u:2] [  971.969002] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  971.970436] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  971.991081] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  972.017562] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  972.017579] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.017634] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  972.017649] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.017709] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  972.017724] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.017786] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  972.017801] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.017861] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  972.017877] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.017932] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  972.017947] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.018007] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  972.018022] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.018084] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  972.018099] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.018154] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  972.018169] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  972.018229] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  972.018244] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  972.019344] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  972.021769] PM: suspend of devices complete after 59.361 msecs
+<6>[27, kworker/u:2] [  972.022161] PM: late suspend of devices complete after 0.371 msecs
+<6>[27, kworker/u:2] [  972.022836] PM: noirq suspend of devices complete after 0.656 msecs
+<4>[27, kworker/u:2] [  972.022849] Disabling non-boot CPUs ...
+<4>[4539, kworker/1:2] [  972.024341] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  972.024591] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  972.025306] CPU1 is up
+<6>[27, kworker/u:2] [  972.025782] PM: noirq resume of devices complete after 0.458 msecs
+<6>[3, ksoftirqd/0] [  972.026149] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  972.026781] PM: early resume of devices complete after 0.473 msecs
+<4>[27, kworker/u:2] [  972.028067] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  972.031999] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  972.032009] 
+<6>[27, kworker/u:2] [  972.033177] PM: resume of devices complete after 6.373 msecs
+<4>[27, kworker/u:2] [  972.033557] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  972.042482] PM: suspend exit 2013-07-27 01:33:26.010336667 UTC
+<6>[27, kworker/u:2] [  972.042507] suspend: exit suspend, ret = -1 (2013-07-27 01:33:26.010370000 UTC)
+<6>[27, kworker/u:2] [  972.042527] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  972.042539] active wake lock mmc1_detect
+<6>[1042, kworker/u:1] [  972.293384] PM: suspend entry 2013-07-27 01:33:26.261238334 UTC
+<4>[1042, kworker/u:1] [  972.293426] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1042, kworker/u:1] [  972.312197] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1042, kworker/u:1] [  972.561659] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1042, kworker/u:1] [  972.581901] Suspending console(s) (use no_console_suspend to debug)
+<6>[1042, kworker/u:1] [  972.585672] radio-tavaruatavarua_suspend: radio suspend
+<6>[1042, kworker/u:1] [  972.585686] 
+<4>[1042, kworker/u:1] [  972.588797] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1042, kworker/u:1] [  972.589921] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1042, kworker/u:1] [  972.602487] call mmc_init_card instead of awake
+<3>[1042, kworker/u:1] [  972.621822] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1042, kworker/u:1] [  972.621839] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.621904] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1042, kworker/u:1] [  972.621919] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.621979] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1042, kworker/u:1] [  972.621994] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622051] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1042, kworker/u:1] [  972.622066] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622126] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1042, kworker/u:1] [  972.622141] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622201] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1042, kworker/u:1] [  972.622216] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622276] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1042, kworker/u:1] [  972.622291] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622347] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1042, kworker/u:1] [  972.622362] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622424] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1042, kworker/u:1] [  972.622439] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  972.622496] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1042, kworker/u:1] [  972.622511] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1042, kworker/u:1] [  972.623206] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1042, kworker/u:1] [  972.625772] PM: suspend of devices complete after 43.323 msecs
+<6>[1042, kworker/u:1] [  972.626154] PM: late suspend of devices complete after 0.361 msecs
+<6>[1042, kworker/u:1] [  972.626826] PM: noirq suspend of devices complete after 0.653 msecs
+<4>[1042, kworker/u:1] [  972.626841] Disabling non-boot CPUs ...
+<4>[4545, kworker/1:1] [  972.628231] do_exit: exit code=4294967292
+<6>[1042, kworker/u:1] [  972.628476] Enabling non-boot CPUs ...
+<6>[1042, kworker/u:1] [  972.629122] CPU1 is up
+<6>[1042, kworker/u:1] [  972.629604] PM: noirq resume of devices complete after 0.461 msecs
+<6>[3, ksoftirqd/0] [  972.629967] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1042, kworker/u:1] [  972.630487] PM: early resume of devices complete after 0.381 msecs
+<4>[1042, kworker/u:1] [  972.631812] batt_id_lim_volt = 4200
+<6>[1042, kworker/u:1] [  972.635816] radio-tavaruatavarua_resume: radio resume
+<6>[1042, kworker/u:1] [  972.635827] 
+<6>[1042, kworker/u:1] [  972.637171] PM: resume of devices complete after 6.661 msecs
+<4>[1042, kworker/u:1] [  972.637574] Restarting tasks ... done.
+<6>[1042, kworker/u:1] [  972.640376] PM: suspend exit 2013-07-27 01:33:29.004409997 UTC
+<6>[1042, kworker/u:1] [  972.640401] suspend: exit suspend, ret = -1 (2013-07-27 01:33:29.004441664 UTC)
+<6>[1042, kworker/u:1] [  972.640432] active wake lock mmc2_detect
+<6>[1042, kworker/u:1] [  972.640444] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  972.892312] PM: suspend entry 2013-07-27 01:33:29.256344995 UTC
+<4>[3076, kworker/u:3] [  972.892422] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[3076, kworker/u:3] [  972.912174] HUAWEI suspend: suspend_sys_sync_done
+<4>[3076, kworker/u:3] [  972.912189] Freezing remaining freezable tasks ... (elapsed 0.01 seconds) done.
+<4>[3076, kworker/u:3] [  972.931894] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  972.935617] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  972.935629] 
+<4>[3076, kworker/u:3] [  972.938712] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  972.939757] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  972.952376] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  972.971661] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  972.971679] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.971736] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  972.971751] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.971811] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  972.971827] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.971886] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  972.971902] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.971962] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  972.971977] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.972034] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  972.972049] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.972109] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  972.972124] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.972181] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  972.972196] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.972256] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  972.972271] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  972.972327] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  972.972342] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  972.973037] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  972.975506] PM: suspend of devices complete after 43.066 msecs
+<6>[3076, kworker/u:3] [  972.975904] PM: late suspend of devices complete after 0.378 msecs
+<6>[3076, kworker/u:3] [  972.976577] PM: noirq suspend of devices complete after 0.653 msecs
+<4>[3076, kworker/u:3] [  972.976591] Disabling non-boot CPUs ...
+<4>[4551, kworker/1:2] [  972.977989] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  972.978232] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  972.978884] CPU1 is up
+<6>[3076, kworker/u:3] [  972.979352] PM: noirq resume of devices complete after 0.448 msecs
+<6>[3, ksoftirqd/0] [  972.979712] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  972.980239] PM: early resume of devices complete after 0.385 msecs
+<4>[3076, kworker/u:3] [  972.981734] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  972.985517] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  972.985527] 
+<6>[3076, kworker/u:3] [  972.986699] PM: resume of devices complete after 6.438 msecs
+<4>[3076, kworker/u:3] [  972.987089] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  973.001752] PM: suspend exit 2013-07-27 01:33:32.016075000 UTC
+<6>[3076, kworker/u:3] [  973.001787] suspend: exit suspend, ret = -1 (2013-07-27 01:33:32.016118334 UTC)
+<6>[3076, kworker/u:3] [  973.001819] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  973.001839] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  973.275809] PM: suspend entry 2013-07-27 01:33:32.290135001 UTC
+<4>[1055, kworker/u:5] [  973.275867] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  973.302399] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  973.551707] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  973.572029] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  973.577002] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  973.577017] 
+<4>[1055, kworker/u:5] [  973.581147] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  973.582907] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  973.603776] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  973.630459] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  973.630482] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.630559] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  973.630582] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.630651] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  973.630674] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.630742] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  973.630766] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.630836] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  973.630857] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.630927] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  973.630949] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.631019] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  973.631041] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.631111] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  973.631132] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.631202] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  973.631224] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  973.631294] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  973.631316] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  973.632489] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  973.635747] PM: suspend of devices complete after 62.996 msecs
+<6>[1055, kworker/u:5] [  973.636261] PM: late suspend of devices complete after 0.485 msecs
+<6>[1055, kworker/u:5] [  973.637197] PM: noirq suspend of devices complete after 0.908 msecs
+<4>[1055, kworker/u:5] [  973.637217] Disabling non-boot CPUs ...
+<4>[4557, kworker/1:1] [  973.639137] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  973.639471] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  973.640366] CPU1 is up
+<6>[1055, kworker/u:5] [  973.640999] PM: noirq resume of devices complete after 0.606 msecs
+<6>[3, ksoftirqd/0] [  973.641496] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  973.642277] PM: early resume of devices complete after 0.523 msecs
+<4>[1055, kworker/u:5] [  973.643957] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  973.648754] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  973.648769] 
+<6>[1055, kworker/u:5] [  973.650272] PM: resume of devices complete after 7.966 msecs
+<4>[1055, kworker/u:5] [  973.650774] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  973.663432] PM: suspend exit 2013-07-27 01:33:35.014475001 UTC
+<6>[1055, kworker/u:5] [  973.663467] suspend: exit suspend, ret = -1 (2013-07-27 01:33:35.014521667 UTC)
+<6>[1055, kworker/u:5] [  973.663497] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  973.663516] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  973.939964] PM: suspend entry 2013-07-27 01:33:35.291011667 UTC
+<4>[3076, kworker/u:3] [  973.940021] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  973.962422] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[3076, kworker/u:3] [  974.211714] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  974.232041] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  974.237079] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  974.237094] 
+<4>[3076, kworker/u:3] [  974.241092] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  974.242697] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  974.260639] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  974.284921] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  974.284946] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285016] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  974.285037] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285112] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  974.285134] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285204] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  974.285226] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285296] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  974.285317] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285386] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  974.285409] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285477] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  974.285501] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285569] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  974.285591] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285661] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  974.285682] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.285751] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  974.285774] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  974.286759] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  974.289876] PM: suspend of devices complete after 57.111 msecs
+<6>[3076, kworker/u:3] [  974.290389] PM: late suspend of devices complete after 0.485 msecs
+<6>[3076, kworker/u:3] [  974.291312] PM: noirq suspend of devices complete after 0.895 msecs
+<4>[3076, kworker/u:3] [  974.291332] Disabling non-boot CPUs ...
+<4>[4563, kworker/1:2] [  974.293276] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  974.293601] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  974.294482] CPU1 is up
+<6>[3076, kworker/u:3] [  974.295111] PM: noirq resume of devices complete after 0.600 msecs
+<6>[3, ksoftirqd/0] [  974.295606] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  974.296294] PM: early resume of devices complete after 0.511 msecs
+<4>[3076, kworker/u:3] [  974.298082] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  974.303239] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  974.303254] 
+<6>[3076, kworker/u:3] [  974.304772] PM: resume of devices complete after 8.446 msecs
+<4>[3076, kworker/u:3] [  974.305307] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  974.317162] PM: suspend exit 2013-07-27 01:33:38.013716666 UTC
+<6>[3076, kworker/u:3] [  974.317197] suspend: exit suspend, ret = -1 (2013-07-27 01:33:38.013761666 UTC)
+<6>[3076, kworker/u:3] [  974.317227] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  974.317244] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  974.597521] PM: suspend entry 2013-07-27 01:33:38.294073333 UTC
+<4>[3076, kworker/u:3] [  974.597609] Freezing user space processes ... (elapsed 0.03 seconds) done.
+<4>[3076, kworker/u:3] [  974.632357] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[3076, kworker/u:3] [  974.881722] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  974.902094] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  974.906912] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  974.906927] 
+<4>[3076, kworker/u:3] [  974.910916] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  974.912484] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  974.930339] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  974.954576] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  974.954601] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.954676] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  974.954697] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.954767] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  974.954789] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.954864] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  974.954886] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.954956] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  974.954977] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.955047] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  974.955069] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.955139] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  974.955161] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.955229] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  974.955252] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.955321] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  974.955342] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  974.955412] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  974.955434] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  974.956417] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  974.959436] PM: suspend of devices complete after 56.624 msecs
+<6>[3076, kworker/u:3] [  974.959946] PM: late suspend of devices complete after 0.480 msecs
+<6>[3076, kworker/u:3] [  974.960872] PM: noirq suspend of devices complete after 0.898 msecs
+<4>[3076, kworker/u:3] [  974.960892] Disabling non-boot CPUs ...
+<4>[4569, kworker/1:1] [  974.962869] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  974.963201] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  974.964099] CPU1 is up
+<6>[3076, kworker/u:3] [  974.964727] PM: noirq resume of devices complete after 0.601 msecs
+<6>[3, ksoftirqd/0] [  974.965222] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  974.966051] PM: early resume of devices complete after 0.616 msecs
+<4>[3076, kworker/u:3] [  974.967726] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  974.972562] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  974.972577] 
+<6>[3076, kworker/u:3] [  974.974114] PM: resume of devices complete after 8.033 msecs
+<4>[3076, kworker/u:3] [  974.974634] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  974.986394] PM: suspend exit 2013-07-27 01:33:41.013625000 UTC
+<6>[3076, kworker/u:3] [  974.986429] suspend: exit suspend, ret = -1 (2013-07-27 01:33:41.013671667 UTC)
+<6>[3076, kworker/u:3] [  974.986461] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  974.986477] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  975.263871] PM: suspend entry 2013-07-27 01:33:41.291103333 UTC
+<4>[1055, kworker/u:5] [  975.263929] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1055, kworker/u:5] [  975.282464] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  975.531731] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  975.552106] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  975.557137] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  975.557154] 
+<4>[1055, kworker/u:5] [  975.561152] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  975.562766] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  975.580604] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  975.604867] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  975.604892] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.604969] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  975.604991] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605059] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  975.605082] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605151] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  975.605174] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605242] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  975.605264] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605334] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  975.605356] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605426] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  975.605447] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605517] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  975.605539] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605614] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  975.605636] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  975.605706] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  975.605727] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  975.606716] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  975.609826] PM: suspend of devices complete after 56.998 msecs
+<6>[1055, kworker/u:5] [  975.610336] PM: late suspend of devices complete after 0.481 msecs
+<6>[1055, kworker/u:5] [  975.611261] PM: noirq suspend of devices complete after 0.898 msecs
+<4>[1055, kworker/u:5] [  975.611281] Disabling non-boot CPUs ...
+<4>[4575, kworker/1:2] [  975.613259] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  975.613591] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  975.614492] CPU1 is up
+<6>[1055, kworker/u:5] [  975.615121] PM: noirq resume of devices complete after 0.601 msecs
+<6>[3, ksoftirqd/0] [  975.615622] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  975.616307] PM: early resume of devices complete after 0.501 msecs
+<4>[1055, kworker/u:5] [  975.617967] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  975.622861] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  975.622876] 
+<6>[1055, kworker/u:5] [  975.624489] PM: resume of devices complete after 8.153 msecs
+<4>[1055, kworker/u:5] [  975.625016] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  975.634944] PM: suspend exit 2013-07-27 01:33:44.011873333 UTC
+<6>[1055, kworker/u:5] [  975.634981] suspend: exit suspend, ret = -1 (2013-07-27 01:33:44.011923333 UTC)
+<6>[1055, kworker/u:5] [  975.635009] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  975.635027] active wake lock mmc1_detect
+<6>[1042, kworker/u:1] [  975.913266] PM: suspend entry 2013-07-27 01:33:44.290196667 UTC
+<4>[1042, kworker/u:1] [  975.913326] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1042, kworker/u:1] [  975.932456] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1042, kworker/u:1] [  976.181737] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1042, kworker/u:1] [  976.202109] Suspending console(s) (use no_console_suspend to debug)
+<6>[1042, kworker/u:1] [  976.207061] radio-tavaruatavarua_suspend: radio suspend
+<6>[1042, kworker/u:1] [  976.207077] 
+<4>[1042, kworker/u:1] [  976.211161] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1042, kworker/u:1] [  976.212761] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1042, kworker/u:1] [  976.230622] call mmc_init_card instead of awake
+<3>[1042, kworker/u:1] [  976.254877] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1042, kworker/u:1] [  976.254902] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.254972] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1042, kworker/u:1] [  976.254996] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255069] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1042, kworker/u:1] [  976.255092] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255161] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1042, kworker/u:1] [  976.255182] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255252] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1042, kworker/u:1] [  976.255274] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255342] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1042, kworker/u:1] [  976.255366] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255436] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1042, kworker/u:1] [  976.255457] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255526] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1042, kworker/u:1] [  976.255549] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255617] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1042, kworker/u:1] [  976.255639] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  976.255709] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1042, kworker/u:1] [  976.255731] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1042, kworker/u:1] [  976.256719] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1042, kworker/u:1] [  976.259849] PM: suspend of devices complete after 57.014 msecs
+<6>[1042, kworker/u:1] [  976.260357] PM: late suspend of devices complete after 0.480 msecs
+<6>[1042, kworker/u:1] [  976.261279] PM: noirq suspend of devices complete after 0.895 msecs
+<4>[1042, kworker/u:1] [  976.261301] Disabling non-boot CPUs ...
+<4>[4581, kworker/1:1] [  976.263297] do_exit: exit code=4294967292
+<6>[1042, kworker/u:1] [  976.263622] Enabling non-boot CPUs ...
+<6>[1042, kworker/u:1] [  976.264509] CPU1 is up
+<6>[1042, kworker/u:1] [  976.265142] PM: noirq resume of devices complete after 0.605 msecs
+<6>[3, ksoftirqd/0] [  976.265641] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1042, kworker/u:1] [  976.266339] PM: early resume of devices complete after 0.511 msecs
+<4>[1042, kworker/u:1] [  976.268206] batt_id_lim_volt = 4200
+<6>[1042, kworker/u:1] [  976.273039] radio-tavaruatavarua_resume: radio resume
+<6>[1042, kworker/u:1] [  976.273056] 
+<6>[1042, kworker/u:1] [  976.274619] PM: resume of devices complete after 8.251 msecs
+<4>[1042, kworker/u:1] [  976.275152] Restarting tasks ... done.
+<6>[1042, kworker/u:1] [  976.291767] PM: suspend exit 2013-07-27 01:33:47.018511666 UTC
+<6>[1042, kworker/u:1] [  976.291806] suspend: exit suspend, ret = -1 (2013-07-27 01:33:47.018566666 UTC)
+<6>[1042, kworker/u:1] [  976.291837] active wake lock mmc2_detect
+<6>[1042, kworker/u:1] [  976.291854] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  976.559114] PM: suspend entry 2013-07-27 01:33:47.285863332 UTC
+<4>[1055, kworker/u:5] [  976.559191] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  976.582422] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  976.831741] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  976.852114] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  976.857051] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  976.857067] 
+<4>[1055, kworker/u:5] [  976.861074] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  976.862689] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  976.880546] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  976.904759] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  976.904782] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.904857] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  976.904881] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.904954] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  976.904977] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905046] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  976.905067] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905137] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  976.905159] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905229] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  976.905251] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905326] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  976.905347] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905417] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  976.905439] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905507] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  976.905531] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  976.905599] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  976.905621] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  976.906611] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  976.909812] PM: suspend of devices complete after 56.973 msecs
+<6>[1055, kworker/u:5] [  976.910329] PM: late suspend of devices complete after 0.488 msecs
+<6>[1055, kworker/u:5] [  976.911256] PM: noirq suspend of devices complete after 0.901 msecs
+<4>[1055, kworker/u:5] [  976.911276] Disabling non-boot CPUs ...
+<4>[4587, kworker/1:2] [  976.913286] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  976.913609] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  976.914494] CPU1 is up
+<6>[1055, kworker/u:5] [  976.915131] PM: noirq resume of devices complete after 0.610 msecs
+<6>[3, ksoftirqd/0] [  976.915624] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  976.916302] PM: early resume of devices complete after 0.510 msecs
+<4>[1055, kworker/u:5] [  976.918007] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  976.922911] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  976.922926] 
+<6>[1055, kworker/u:5] [  976.924461] PM: resume of devices complete after 8.128 msecs
+<4>[1055, kworker/u:5] [  976.924981] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  976.934561] PM: suspend exit 2013-07-27 01:33:50.011435000 UTC
+<6>[1055, kworker/u:5] [  976.934597] suspend: exit suspend, ret = -1 (2013-07-27 01:33:50.011485000 UTC)
+<6>[1055, kworker/u:5] [  976.934626] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  976.934642] active wake lock mmc1_detect
+<6>[1042, kworker/u:1] [  977.227297] PM: suspend entry 2013-07-27 01:33:50.304166667 UTC
+<4>[1042, kworker/u:1] [  977.227381] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1042, kworker/u:1] [  977.252831] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1042, kworker/u:1] [  977.501799] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1042, kworker/u:1] [  977.522259] Suspending console(s) (use no_console_suspend to debug)
+<6>[1042, kworker/u:1] [  977.529202] radio-tavaruatavarua_suspend: radio suspend
+<6>[1042, kworker/u:1] [  977.529226] 
+<4>[1042, kworker/u:1] [  977.534602] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1042, kworker/u:1] [  977.536491] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1042, kworker/u:1] [  977.557609] call mmc_init_card instead of awake
+<3>[1042, kworker/u:1] [  977.584931] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1042, kworker/u:1] [  977.584966] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585062] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1042, kworker/u:1] [  977.585094] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585191] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1042, kworker/u:1] [  977.585222] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585317] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1042, kworker/u:1] [  977.585351] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585439] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1042, kworker/u:1] [  977.585471] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585561] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1042, kworker/u:1] [  977.585592] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585687] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1042, kworker/u:1] [  977.585721] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585816] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1042, kworker/u:1] [  977.585847] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.585937] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1042, kworker/u:1] [  977.585969] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1042, kworker/u:1] [  977.586064] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1042, kworker/u:1] [  977.586096] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1042, kworker/u:1] [  977.587277] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1042, kworker/u:1] [  977.591571] PM: suspend of devices complete after 68.323 msecs
+<6>[1042, kworker/u:1] [  977.592362] PM: late suspend of devices complete after 0.745 msecs
+<6>[1042, kworker/u:1] [  977.593681] PM: noirq suspend of devices complete after 1.276 msecs
+<4>[1042, kworker/u:1] [  977.593709] Disabling non-boot CPUs ...
+<4>[4593, kworker/1:1] [  977.596322] do_exit: exit code=4294967292
+<6>[1042, kworker/u:1] [  977.596782] Enabling non-boot CPUs ...
+<6>[1042, kworker/u:1] [  977.598009] CPU1 is up
+<6>[1042, kworker/u:1] [  977.598866] PM: noirq resume of devices complete after 0.818 msecs
+<6>[3, ksoftirqd/0] [  977.599561] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1042, kworker/u:1] [  977.600506] PM: early resume of devices complete after 0.693 msecs
+<4>[1042, kworker/u:1] [  977.602971] batt_id_lim_volt = 4200
+<6>[1042, kworker/u:1] [  977.609774] radio-tavaruatavarua_resume: radio resume
+<6>[1042, kworker/u:1] [  977.609797] 
+<6>[1042, kworker/u:1] [  977.612029] PM: resume of devices complete after 11.483 msecs
+<4>[1042, kworker/u:1] [  977.612776] Restarting tasks ... done.
+<6>[1042, kworker/u:1] [  977.631826] PM: suspend exit 2013-07-27 01:33:53.021748334 UTC
+<6>[1042, kworker/u:1] [  977.631881] suspend: exit suspend, ret = -1 (2013-07-27 01:33:53.021820001 UTC)
+<6>[1042, kworker/u:1] [  977.631927] active wake lock mmc2_detect
+<6>[1042, kworker/u:1] [  977.631952] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  977.950321] PM: suspend entry 2013-07-27 01:33:53.340243334 UTC
+<4>[27, kworker/u:2] [  977.950436] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  977.972756] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  978.221809] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  978.242266] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  978.248969] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  978.248992] 
+<4>[27, kworker/u:2] [  978.254684] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  978.256819] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  978.282954] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  978.314684] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  978.314719] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.314821] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  978.314852] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.314944] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  978.314976] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315067] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  978.315099] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315191] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  978.315222] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315314] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  978.315346] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315437] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  978.315469] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315561] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  978.315592] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315684] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  978.315716] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  978.315809] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  978.315839] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  978.317266] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  978.321314] PM: suspend of devices complete after 78.050 msecs
+<6>[27, kworker/u:2] [  978.322174] PM: late suspend of devices complete after 0.813 msecs
+<6>[27, kworker/u:2] [  978.323499] PM: noirq suspend of devices complete after 1.283 msecs
+<4>[27, kworker/u:2] [  978.323529] Disabling non-boot CPUs ...
+<4>[4599, kworker/1:2] [  978.326204] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  978.326667] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  978.327912] CPU1 is up
+<6>[27, kworker/u:2] [  978.328762] PM: noirq resume of devices complete after 0.810 msecs
+<6>[3, ksoftirqd/0] [  978.329467] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  978.330589] PM: early resume of devices complete after 0.840 msecs
+<4>[27, kworker/u:2] [  978.332796] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  978.339004] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  978.339026] 
+<6>[27, kworker/u:2] [  978.341109] PM: resume of devices complete after 10.478 msecs
+<4>[27, kworker/u:2] [  978.341976] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  978.356142] PM: suspend exit 2013-07-27 01:33:56.016840000 UTC
+<6>[27, kworker/u:2] [  978.356192] suspend: exit suspend, ret = -1 (2013-07-27 01:33:56.016908333 UTC)
+<6>[27, kworker/u:2] [  978.356231] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  978.356256] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  978.686061] PM: suspend entry 2013-07-27 01:33:56.346766667 UTC
+<4>[1055, kworker/u:5] [  978.686176] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  978.712724] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  978.961821] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  978.982269] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  978.989096] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  978.989119] 
+<4>[1055, kworker/u:5] [  978.994866] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  978.997014] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  979.023267] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  979.054962] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  979.054999] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055084] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  979.055117] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055201] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  979.055234] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055341] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  979.055372] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055464] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  979.055497] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055589] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  979.055621] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055712] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  979.055746] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055837] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  979.055869] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.055962] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  979.055994] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  979.056086] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  979.056117] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  979.057552] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  979.061794] PM: suspend of devices complete after 78.534 msecs
+<6>[1055, kworker/u:5] [  979.062514] PM: late suspend of devices complete after 0.681 msecs
+<6>[1055, kworker/u:5] [  979.063821] PM: noirq suspend of devices complete after 1.270 msecs
+<4>[1055, kworker/u:5] [  979.063851] Disabling non-boot CPUs ...
+<4>[4605, kworker/1:1] [  979.066461] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  979.066919] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  979.068159] CPU1 is up
+<6>[1055, kworker/u:5] [  979.069019] PM: noirq resume of devices complete after 0.821 msecs
+<6>[3, ksoftirqd/0] [  979.069719] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  979.070659] PM: early resume of devices complete after 0.686 msecs
+<4>[1055, kworker/u:5] [  979.072877] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  979.079226] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  979.079247] 
+<6>[1055, kworker/u:5] [  979.081447] PM: resume of devices complete after 10.746 msecs
+<4>[1055, kworker/u:5] [  979.082322] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  979.095586] PM: suspend exit 2013-07-27 01:33:59.016068334 UTC
+<6>[1055, kworker/u:5] [  979.095636] suspend: exit suspend, ret = -1 (2013-07-27 01:33:59.016130001 UTC)
+<6>[1055, kworker/u:5] [  979.095676] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  979.095701] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  979.404871] PM: suspend entry 2013-07-27 01:33:59.325343334 UTC
+<4>[27, kworker/u:2] [  979.405026] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  979.432994] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  979.681906] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  979.702617] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  979.710726] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  979.710761] 
+<4>[27, kworker/u:2] [  979.717504] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  979.719482] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  979.740739] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  979.768861] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  979.768912] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769027] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  979.769076] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769184] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  979.769231] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769326] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  979.769372] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769501] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  979.769547] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769654] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  979.769702] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769811] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  979.769857] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.769966] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  979.770012] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.770119] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  979.770167] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  979.770274] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  979.770322] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  979.771541] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  979.776477] PM: suspend of devices complete after 72.608 msecs
+<6>[27, kworker/u:2] [  979.777397] PM: late suspend of devices complete after 0.861 msecs
+<6>[27, kworker/u:2] [  979.779182] PM: noirq suspend of devices complete after 1.730 msecs
+<4>[27, kworker/u:2] [  979.779224] Disabling non-boot CPUs ...
+<4>[4611, kworker/1:2] [  979.782907] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  979.783519] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  979.785242] CPU1 is up
+<6>[27, kworker/u:2] [  979.786341] PM: noirq resume of devices complete after 1.043 msecs
+<6>[3, ksoftirqd/0] [  979.787302] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  979.788504] PM: early resume of devices complete after 0.871 msecs
+<4>[27, kworker/u:2] [  979.791296] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  979.798929] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  979.798961] 
+<6>[27, kworker/u:2] [  979.801676] PM: resume of devices complete after 13.113 msecs
+<4>[27, kworker/u:2] [  979.802806] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  979.821896] PM: suspend exit 2013-07-27 01:34:02.022536666 UTC
+<6>[27, kworker/u:2] [  979.821974] suspend: exit suspend, ret = -1 (2013-07-27 01:34:02.022635000 UTC)
+<6>[27, kworker/u:2] [  979.822036] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  979.822072] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  979.822112] active wake lock alarm, time left 497
+<6>[1055, kworker/u:5] [  980.124416] PM: suspend entry 2013-07-27 01:34:02.325083333 UTC
+<4>[1055, kworker/u:5] [  980.124474] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1055, kworker/u:5] [  980.142301] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  980.391756] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  980.412032] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  980.415782] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  980.415794] 
+<4>[1055, kworker/u:5] [  980.419161] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  980.420692] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  980.441326] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  980.467791] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  980.467807] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.467869] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  980.467884] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.467941] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  980.467956] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468016] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  980.468032] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468087] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  980.468102] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468164] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  980.468179] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468239] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  980.468256] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468311] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  980.468326] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468387] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  980.468402] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  980.468462] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  980.468477] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  980.469577] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  980.472174] PM: suspend of devices complete after 59.596 msecs
+<6>[1055, kworker/u:5] [  980.472546] PM: late suspend of devices complete after 0.353 msecs
+<6>[1055, kworker/u:5] [  980.473219] PM: noirq suspend of devices complete after 0.651 msecs
+<4>[1055, kworker/u:5] [  980.473234] Disabling non-boot CPUs ...
+<4>[4617, kworker/1:1] [  980.474669] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  980.474911] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  980.475562] CPU1 is up
+<6>[1055, kworker/u:5] [  980.476044] PM: noirq resume of devices complete after 0.461 msecs
+<6>[3, ksoftirqd/0] [  980.476407] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  980.476934] PM: early resume of devices complete after 0.386 msecs
+<4>[1055, kworker/u:5] [  980.478247] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  980.482212] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  980.482222] 
+<6>[1055, kworker/u:5] [  980.483366] PM: resume of devices complete after 6.410 msecs
+<4>[1055, kworker/u:5] [  980.483746] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  980.491201] PM: suspend exit 2013-07-27 01:34:05.008836667 UTC
+<6>[1055, kworker/u:5] [  980.491226] suspend: exit suspend, ret = -1 (2013-07-27 01:34:05.008873334 UTC)
+<6>[1055, kworker/u:5] [  980.491247] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  980.491259] active wake lock mmc1_detect
+<6>[27, kworker/u:2] [  980.777881] PM: suspend entry 2013-07-27 01:34:05.295516667 UTC
+<4>[27, kworker/u:2] [  980.777962] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  980.802549] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[27, kworker/u:2] [  981.051806] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[27, kworker/u:2] [  981.072112] Suspending console(s) (use no_console_suspend to debug)
+<6>[27, kworker/u:2] [  981.077184] radio-tavaruatavarua_suspend: radio suspend
+<6>[27, kworker/u:2] [  981.077199] 
+<4>[27, kworker/u:2] [  981.081342] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[27, kworker/u:2] [  981.083127] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[27, kworker/u:2] [  981.103994] call mmc_init_card instead of awake
+<3>[27, kworker/u:2] [  981.130704] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[27, kworker/u:2] [  981.130727] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.130797] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[27, kworker/u:2] [  981.130819] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.130894] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[27, kworker/u:2] [  981.130916] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.130986] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[27, kworker/u:2] [  981.131007] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131076] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[27, kworker/u:2] [  981.131099] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131167] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[27, kworker/u:2] [  981.131189] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131259] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[27, kworker/u:2] [  981.131281] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131351] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[27, kworker/u:2] [  981.131372] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131441] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[27, kworker/u:2] [  981.131462] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[27, kworker/u:2] [  981.131532] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[27, kworker/u:2] [  981.131554] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[27, kworker/u:2] [  981.132719] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[27, kworker/u:2] [  981.135874] PM: suspend of devices complete after 63.040 msecs
+<6>[27, kworker/u:2] [  981.136381] PM: late suspend of devices complete after 0.480 msecs
+<6>[27, kworker/u:2] [  981.137294] PM: noirq suspend of devices complete after 0.888 msecs
+<4>[27, kworker/u:2] [  981.137314] Disabling non-boot CPUs ...
+<4>[4623, kworker/1:2] [  981.139219] do_exit: exit code=4294967292
+<6>[27, kworker/u:2] [  981.139547] Enabling non-boot CPUs ...
+<6>[27, kworker/u:2] [  981.140434] CPU1 is up
+<6>[27, kworker/u:2] [  981.141062] PM: noirq resume of devices complete after 0.601 msecs
+<6>[3, ksoftirqd/0] [  981.141556] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[27, kworker/u:2] [  981.142321] PM: early resume of devices complete after 0.516 msecs
+<4>[27, kworker/u:2] [  981.144099] batt_id_lim_volt = 4200
+<6>[27, kworker/u:2] [  981.149121] radio-tavaruatavarua_resume: radio resume
+<6>[27, kworker/u:2] [  981.149136] 
+<6>[27, kworker/u:2] [  981.150622] PM: resume of devices complete after 8.271 msecs
+<4>[27, kworker/u:2] [  981.151132] Restarting tasks ... done.
+<6>[27, kworker/u:2] [  981.156871] PM: suspend exit 2013-07-27 01:34:08.007546667 UTC
+<6>[27, kworker/u:2] [  981.156904] suspend: exit suspend, ret = -1 (2013-07-27 01:34:08.007586667 UTC)
+<6>[27, kworker/u:2] [  981.156952] active wake lock mmc2_detect
+<6>[27, kworker/u:2] [  981.156971] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  981.435116] PM: suspend entry 2013-07-27 01:34:08.285785000 UTC
+<4>[1055, kworker/u:5] [  981.435266] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1055, kworker/u:5] [  981.452551] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  981.701796] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  981.722124] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  981.726941] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  981.726957] 
+<4>[1055, kworker/u:5] [  981.730944] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  981.732556] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  981.750421] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  981.774712] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  981.774737] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.774812] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  981.774836] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.774904] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  981.774927] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.774996] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  981.775017] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775087] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  981.775109] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775184] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  981.775206] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775276] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  981.775297] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775366] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  981.775389] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775457] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  981.775479] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  981.775549] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  981.775571] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  981.776556] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  981.779574] PM: suspend of devices complete after 56.730 msecs
+<6>[1055, kworker/u:5] [  981.780086] PM: late suspend of devices complete after 0.485 msecs
+<6>[1055, kworker/u:5] [  981.781021] PM: noirq suspend of devices complete after 0.908 msecs
+<4>[1055, kworker/u:5] [  981.781042] Disabling non-boot CPUs ...
+<4>[4629, kworker/1:1] [  981.782971] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  981.783302] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  981.784202] CPU1 is up
+<6>[1055, kworker/u:5] [  981.784841] PM: noirq resume of devices complete after 0.610 msecs
+<6>[3, ksoftirqd/0] [  981.785341] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  981.786174] PM: early resume of devices complete after 0.623 msecs
+<4>[1055, kworker/u:5] [  981.787842] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  981.792672] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  981.792687] 
+<6>[1055, kworker/u:5] [  981.794202] PM: resume of devices complete after 7.998 msecs
+<4>[1055, kworker/u:5] [  981.794737] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  981.804479] PM: suspend exit 2013-07-27 01:34:11.011594999 UTC
+<6>[1055, kworker/u:5] [  981.804514] suspend: exit suspend, ret = -1 (2013-07-27 01:34:11.011644999 UTC)
+<6>[1055, kworker/u:5] [  981.804544] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  981.804561] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  982.094417] PM: suspend entry 2013-07-27 01:34:11.301530000 UTC
+<4>[3076, kworker/u:3] [  982.094531] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  982.122744] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[3076, kworker/u:3] [  982.371859] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  982.392306] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  982.398936] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  982.398961] 
+<4>[3076, kworker/u:3] [  982.404414] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  982.406314] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  982.427386] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  982.454707] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  982.454742] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.454839] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  982.454872] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.454967] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  982.454999] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455096] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  982.455127] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455222] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  982.455254] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455344] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  982.455376] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455471] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  982.455504] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455592] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  982.455624] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455714] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  982.455746] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  982.455834] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  982.455867] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  982.457041] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  982.461282] PM: suspend of devices complete after 67.988 msecs
+<6>[3076, kworker/u:3] [  982.462077] PM: late suspend of devices complete after 0.748 msecs
+<6>[3076, kworker/u:3] [  982.463397] PM: noirq suspend of devices complete after 1.280 msecs
+<4>[3076, kworker/u:3] [  982.463426] Disabling non-boot CPUs ...
+<4>[4635, kworker/1:2] [  982.466041] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  982.466504] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  982.467752] CPU1 is up
+<6>[3076, kworker/u:3] [  982.468612] PM: noirq resume of devices complete after 0.821 msecs
+<6>[3, ksoftirqd/0] [  982.469312] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  982.470256] PM: early resume of devices complete after 0.685 msecs
+<4>[3076, kworker/u:3] [  982.472597] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  982.479229] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  982.479251] 
+<6>[3076, kworker/u:3] [  982.481484] PM: resume of devices complete after 11.185 msecs
+<4>[3076, kworker/u:3] [  982.482356] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  982.511922] PM: suspend exit 2013-07-27 01:34:14.032390000 UTC
+<6>[3076, kworker/u:3] [  982.511977] suspend: exit suspend, ret = -1 (2013-07-27 01:34:14.032463333 UTC)
+<6>[3076, kworker/u:3] [  982.512024] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  982.512049] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  982.826412] PM: suspend entry 2013-07-27 01:34:14.346886666 UTC
+<4>[1055, kworker/u:5] [  982.826524] Freezing user space processes ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  982.852951] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  983.101866] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  983.122317] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  983.128756] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  983.128781] 
+<4>[1055, kworker/u:5] [  983.134546] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  983.136659] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  983.162871] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  983.194574] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  983.194609] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.194702] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  983.194736] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.194827] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  983.194861] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.194952] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  983.194986] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195077] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  983.195111] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195194] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  983.195227] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195327] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  983.195359] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195452] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  983.195484] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195576] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  983.195609] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  983.195701] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  983.195732] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  983.197159] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  983.201459] PM: suspend of devices complete after 78.156 msecs
+<6>[1055, kworker/u:5] [  983.202362] PM: late suspend of devices complete after 0.860 msecs
+<6>[1055, kworker/u:5] [  983.203679] PM: noirq suspend of devices complete after 1.275 msecs
+<4>[1055, kworker/u:5] [  983.203709] Disabling non-boot CPUs ...
+<4>[4641, kworker/1:1] [  983.206434] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  983.206909] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  983.208166] CPU1 is up
+<6>[1055, kworker/u:5] [  983.209034] PM: noirq resume of devices complete after 0.830 msecs
+<6>[3, ksoftirqd/0] [  983.209732] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[1055, kworker/u:5] [  983.210681] PM: early resume of devices complete after 0.696 msecs
+<4>[1055, kworker/u:5] [  983.213182] batt_id_lim_volt = 4200
+<4>[1055, kworker/u:5] [  983.214711] msm_batt_update_psy_status: 2 callbacks suppressed
+<6>[1055, kworker/u:5] [  983.219376] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  983.219397] 
+<6>[1055, kworker/u:5] [  983.221527] PM: resume of devices complete after 10.805 msecs
+<4>[1055, kworker/u:5] [  983.222359] Restarting tasks ... done.
+<6>[1055, kworker/u:5] [  983.230799] PM: suspend exit 2013-07-27 01:34:17.011115001 UTC
+<6>[1055, kworker/u:5] [  983.230851] suspend: exit suspend, ret = -1 (2013-07-27 01:34:17.011188334 UTC)
+<6>[1055, kworker/u:5] [  983.230892] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  983.230916] active wake lock mmc1_detect
+<6>[3076, kworker/u:3] [  983.560406] PM: suspend entry 2013-07-27 01:34:17.340726667 UTC
+<4>[3076, kworker/u:3] [  983.560521] Freezing user space processes ... (elapsed 0.03 seconds) done.
+<4>[3076, kworker/u:3] [  983.592774] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[3076, kworker/u:3] [  983.841879] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[3076, kworker/u:3] [  983.862406] Suspending console(s) (use no_console_suspend to debug)
+<6>[3076, kworker/u:3] [  983.868886] radio-tavaruatavarua_suspend: radio suspend
+<6>[3076, kworker/u:3] [  983.868907] 
+<4>[3076, kworker/u:3] [  983.874489] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[3076, kworker/u:3] [  983.876602] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[3076, kworker/u:3] [  983.902824] call mmc_init_card instead of awake
+<3>[3076, kworker/u:3] [  983.934451] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[3076, kworker/u:3] [  983.934486] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.934579] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[3076, kworker/u:3] [  983.934612] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.934704] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[3076, kworker/u:3] [  983.934736] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.934829] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[3076, kworker/u:3] [  983.934862] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.934954] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[3076, kworker/u:3] [  983.934986] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.935077] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[3076, kworker/u:3] [  983.935111] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.935202] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[3076, kworker/u:3] [  983.935236] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.935327] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[3076, kworker/u:3] [  983.935361] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.935452] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[3076, kworker/u:3] [  983.935484] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[3076, kworker/u:3] [  983.935576] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[3076, kworker/u:3] [  983.935609] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[3076, kworker/u:3] [  983.937034] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[3076, kworker/u:3] [  983.941331] PM: suspend of devices complete after 77.941 msecs
+<6>[3076, kworker/u:3] [  983.942194] PM: late suspend of devices complete after 0.820 msecs
+<6>[3076, kworker/u:3] [  983.943514] PM: noirq suspend of devices complete after 1.280 msecs
+<4>[3076, kworker/u:3] [  983.943546] Disabling non-boot CPUs ...
+<4>[4647, kworker/1:2] [  983.946186] do_exit: exit code=4294967292
+<6>[3076, kworker/u:3] [  983.946639] Enabling non-boot CPUs ...
+<6>[3076, kworker/u:3] [  983.947882] CPU1 is up
+<6>[3076, kworker/u:3] [  983.948739] PM: noirq resume of devices complete after 0.818 msecs
+<6>[3, ksoftirqd/0] [  983.949436] wakeup wake lock: rpcrotuer_smd_xprt
+<6>[3076, kworker/u:3] [  983.950367] PM: early resume of devices complete after 0.675 msecs
+<4>[3076, kworker/u:3] [  983.952704] batt_id_lim_volt = 4200
+<6>[3076, kworker/u:3] [  983.958992] radio-tavaruatavarua_resume: radio resume
+<6>[3076, kworker/u:3] [  983.959014] 
+<6>[3076, kworker/u:3] [  983.961127] PM: resume of devices complete after 10.719 msecs
+<4>[3076, kworker/u:3] [  983.961919] Restarting tasks ... done.
+<6>[3076, kworker/u:3] [  983.981607] PM: suspend exit 2013-07-27 01:34:20.022319999 UTC
+<6>[3076, kworker/u:3] [  983.981661] suspend: exit suspend, ret = -1 (2013-07-27 01:34:20.022388333 UTC)
+<6>[3076, kworker/u:3] [  983.981706] active wake lock mmc2_detect
+<6>[3076, kworker/u:3] [  983.981731] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  984.303167] PM: suspend entry 2013-07-27 01:34:20.343886666 UTC
+<4>[1055, kworker/u:5] [  984.303274] Freezing user space processes ... (elapsed 0.01 seconds) done.
+<4>[1055, kworker/u:5] [  984.322794] HUAWEI suspend: suspend_sys_sync_done false, need to wait
+<4>[1055, kworker/u:5] [  984.571882] Freezing remaining freezable tasks ... (elapsed 0.02 seconds) done.
+<4>[1055, kworker/u:5] [  984.592344] Suspending console(s) (use no_console_suspend to debug)
+<6>[1055, kworker/u:5] [  984.598966] radio-tavaruatavarua_suspend: radio suspend
+<6>[1055, kworker/u:5] [  984.598989] 
+<4>[1055, kworker/u:5] [  984.604587] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.2
+<4>[1055, kworker/u:5] [  984.606734] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.1
+<4>[1055, kworker/u:5] [  984.632957] call mmc_init_card instead of awake
+<3>[1055, kworker/u:5] [  984.664677] gpio_tlmm_config(0x000846c3, GPIO_CFG_DISABLE) <sdc3_dat_4> failed: 0
+<3>[1055, kworker/u:5] [  984.664714] pin 108 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.664814] gpio_tlmm_config(0x00084153, GPIO_CFG_DISABLE) <sdc3_dat_5> failed: -5
+<3>[1055, kworker/u:5] [  984.664847] pin 21 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.664939] gpio_tlmm_config(0x00084143, GPIO_CFG_DISABLE) <sdc3_dat_6> failed: -5
+<3>[1055, kworker/u:5] [  984.664972] pin 20 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665064] gpio_tlmm_config(0x00084133, GPIO_CFG_DISABLE) <sdc3_dat_7> failed: -5
+<3>[1055, kworker/u:5] [  984.665096] pin 19 func 3 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665189] gpio_tlmm_config(0x000845d1, GPIO_CFG_DISABLE) <sdc3_dat_0> failed: -5
+<3>[1055, kworker/u:5] [  984.665221] pin 93 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665312] gpio_tlmm_config(0x000845c1, GPIO_CFG_DISABLE) <sdc3_dat_1> failed: -5
+<3>[1055, kworker/u:5] [  984.665346] pin 92 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665437] gpio_tlmm_config(0x000845b1, GPIO_CFG_DISABLE) <sdc3_dat_2> failed: -5
+<3>[1055, kworker/u:5] [  984.665471] pin 91 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665562] gpio_tlmm_config(0x000845a1, GPIO_CFG_DISABLE) <sdc3_dat_3> failed: -5
+<3>[1055, kworker/u:5] [  984.665594] pin 90 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665686] gpio_tlmm_config(0x00084591, GPIO_CFG_DISABLE) <sdc3_cmd> failed: -5
+<3>[1055, kworker/u:5] [  984.665719] pin 89 func 1 dir 1 pull 0 drvstr 4
+<3>[1055, kworker/u:5] [  984.665811] gpio_tlmm_config(0x00064581, GPIO_CFG_DISABLE) <sdc3_clk> failed: -5
+<3>[1055, kworker/u:5] [  984.665842] pin 88 func 1 dir 1 pull 0 drvstr 3
+<4>[1055, kworker/u:5] [  984.667272] msmsdcc_pm_suspend: mmc sleep_device is msm_sdcc.3
+<6>[1055, kworker/u:5] [  984.671437] PM: suspend of devices complete after 78.111 msecs
+<6>[1055, kworker/u:5] [  984.672274] PM: late suspend of devices complete after 0.791 msecs
+<6>[1055, kworker/u:5] [  984.673591] PM: noirq suspend of devices complete after 1.278 msecs
+<4>[1055, kworker/u:5] [  984.673621] Disabling non-boot CPUs ...
+<4>[4653, kworker/1:1] [  984.676246] do_exit: exit code=4294967292
+<6>[1055, kworker/u:5] [  984.676704] Enabling non-boot CPUs ...
+<6>[1055, kworker/u:5] [  984.677949] CPU1 is up
+<6>[1055, kworker/u:5] [  984.678812] PM: noirq resume of devices complete after 0.823 msecs
+<6>[3, ksoftirqd/0] [  984.679501] wakeup wake lock: rpcrotuer_smd_xprt
+<4>[93, khsclntd] [  984.679734] report_hs_key:Press power key ,key=81 ,now time (01:34:20.720446666 UTC)
+<6>[1055, kworker/u:5] [  984.680742] PM: early resume of devices complete after 0.981 msecs
+<4>[1055, kworker/u:5] [  984.683094] batt_id_lim_volt = 4200
+<6>[1055, kworker/u:5] [  984.689736] radio-tavaruatavarua_resume: radio resume
+<6>[1055, kworker/u:5] [  984.689759] 
+<6>[1055, kworker/u:5] [  984.691839] PM: resume of devices complete after 11.050 msecs
+<4>[1055, kworker/u:5] [  984.692591] Restarting tasks ... done.
+<6>[425, WindowManagerPo] [  984.707559] request_suspend_state: wakeup (3->0) at 984705797038 (2013-07-27 01:34:22.017516666 UTC)
+<6>[1055, kworker/u:5] [  984.711999] PM: suspend exit 2013-07-27 01:34:22.021958333 UTC
+<6>[1055, kworker/u:5] [  984.712054] suspend: exit suspend, ret = -1 (2013-07-27 01:34:22.022033333 UTC)
+<6>[1055, kworker/u:5] [  984.712101] active wake lock mmc2_detect
+<6>[1055, kworker/u:5] [  984.712127] active wake lock PowerManagerService
+<6>[1055, kworker/u:5] [  984.712152] active wake lock main
+<6>[1055, kworker/u:5] [  984.712176] active wake lock mmc1_detect
+<6>[1055, kworker/u:5] [  984.712251] late_resume: call handlers
+<4>[422, PowerManagerSer] [  984.736107] Update G-sensor Odr ,delay_time is 68
+<4>[422, PowerManagerSer] [  984.737709] Update G-sensor Odr ,delay_time is 200
+<4>[422, PowerManagerSer] [  984.738704] Update G-sensor Odr ,delay_time is 68
+<4>[1055, kworker/u:5] [  984.759581] lcd_debug_malloc_get_para: Can not open /data/hw_lcd_init_param.txt
+<4>[93, khsclntd] [  984.864759] report_hs_key:Press power key ,key=255 ,now time (01:34:22.174731666 UTC)
+<3>[1055, kworker/u:5] [  985.064311] [LCD_DEBUG] leave mipi_otm8018b_lcd_on 
+<4>[1055, kworker/u:5] [  985.064416] msm_fb_blank_sub:Waiting for LCD resume ,then set backlight level=21
+<3>[1055, kworker/u:5] [  985.163847] synaptics_rmi4_touch is resume!
+<6>[1055, kworker/u:5] [  985.164394] late_resume: done
+<6>[425, WindowManagerPo] [  994.730414] request_suspend_state: sleep (0->3) at 994728638582 (2013-07-27 01:34:32.040353210 UTC)
+<6>[3076, kworker/u:3] [  994.730547] early_suspend: call handlers
+<3>[3076, kworker/u:3] [  995.502041] [LCD_DEBUG] leave mipi_otm8018b_lcd_off 
+<4>[93, khsclntd] [  996.191874] report_hs_key:Press power key ,key=81 ,now time (01:34:33.501851665 UTC)
+<6>[425, WindowManagerPo] [  996.193641] request_suspend_state: wakeup (3->0) at 996191867036 (2013-07-27 01:34:33.503584998 UTC)
+<6>[1055, kworker/u:5] [  996.193802] late_resume: call handlers
+<4>[422, PowerManagerSer] [  996.202087] Update G-sensor Odr ,delay_time is 68
+<4>[422, PowerManagerSer] [  996.203201] Update G-sensor Odr ,delay_time is 200
+<4>[422, PowerManagerSer] [  996.204022] Update G-sensor Odr ,delay_time is 68
+<4>[1055, kworker/u:5] [  996.231521] lcd_debug_malloc_get_para: Can not open /data/hw_lcd_init_param.txt
+<4>[93, khsclntd] [  996.364952] report_hs_key:Press power key ,key=255 ,now time (01:34:33.674911665 UTC)
+<3>[1055, kworker/u:5] [  996.532534] [LCD_DEBUG] leave mipi_otm8018b_lcd_on 
+<4>[1055, kworker/u:5] [  996.532637] msm_fb_blank_sub:Waiting for LCD resume ,then set backlight level=29
+<3>[1055, kworker/u:5] [  996.627429] synaptics_rmi4_touch is resume!
+<6>[1055, kworker/u:5] [  996.632612] late_resume: done
+<4>[97, mmcqd/0] [  999.121152] call mmc_init_card instead of awake
+<4>[609, enmod.trebuchet] [ 1000.680351] idle_stats_device: Overwriting samples
+<4>[293, SurfaceFlinger] [ 1022.958919] idle_stats_device: Overwriting samples
+<4>[4717, ping] [ 1029.899506] do_exit: exit code=512
+<4>[4724, ping] [ 1031.794581] do_exit: exit code=512
+<4>[4730, ping] [ 1032.553354] do_exit: exit code=512
+<4>[4737, ping] [ 1033.173794] do_exit: exit code=512
+<4>[4744, ping] [ 1033.829692] do_exit: exit code=512
+<4>[4750, ping] [ 1036.335064] do_exit: exit code=512
+<4>[4756, ping] [ 1036.946704] do_exit: exit code=512
+<4>[82, kbatteryclntcbd] [ 1068.805509] batt_id_lim_volt = 4200
+<4>[4786, ping] [ 1090.291136] do_exit: exit code=512
+<4>[4790, ping] [ 1091.654972] do_exit: exit code=512
+<4>[4796, ping] [ 1092.211529] do_exit: exit code=512
+<4>[4802, ping] [ 1092.791447] do_exit: exit code=512
+<4>[4810, ping] [ 1093.301537] do_exit: exit code=512
+<4>[4816, ping] [ 1093.701324] do_exit: exit code=512
+<4>[4822, ping] [ 1093.957812] do_exit: exit code=512
+<4>[4827, ping] [ 1094.168694] do_exit: exit code=512
+<4>[4834, ping] [ 1094.404812] do_exit: exit code=512
+<4>[4839, ping] [ 1094.640134] do_exit: exit code=512
+<4>[4847, ping] [ 1094.922466] do_exit: exit code=512
+<4>[4853, ping] [ 1095.137246] do_exit: exit code=512
+<4>[4860, ping] [ 1095.392596] do_exit: exit code=512
+<4>[293, SurfaceFlinger] [ 1104.723131] idle_stats_device: Overwriting samples
+<4>[4869, ping] [ 1110.696967] do_exit: exit code=512
+<4>[4873, ping] [ 1111.402979] do_exit: exit code=512
+<4>[4879, ping] [ 1111.932582] do_exit: exit code=512
+<4>[687, ndroid.settings] [ 1119.011929] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1127.668401] idle_stats_device: Overwriting samples
+<4>[82, kbatteryclntcbd] [ 1128.627356] batt_id_lim_volt = 4200
+<4>[4719, ping] [ 1129.694597] do_exit: exit code=512
+<4>[4726, ping] [ 1131.692794] do_exit: exit code=512
+<4>[4726, ping] [ 1131.694189] ping used greatest stack depth: 4164 bytes left
+<4>[4733, ping] [ 1131.694797] do_exit: exit code=512
+<4>[4733, ping] [ 1131.696051] ping used greatest stack depth: 3912 bytes left
+<4>[4739, ping] [ 1132.694306] do_exit: exit code=512
+<4>[4745, ping] [ 1133.696214] do_exit: exit code=512
+<4>[4752, ping] [ 1135.692764] do_exit: exit code=512
+<4>[4758, ping] [ 1136.692629] do_exit: exit code=512
+<4>[293, SurfaceFlinger] [ 1138.093256] idle_stats_device: Overwriting samples
+<4>[609, enmod.trebuchet] [ 1141.771584] idle_stats_device: Overwriting samples
+<4>[609, enmod.trebuchet] [ 1143.636201] idle_stats_device: Overwriting samples
+<4>[82, kbatteryclntcbd] [ 1188.447361] batt_id_lim_volt = 4200
+<4>[4784, ping] [ 1189.692727] do_exit: exit code=512
+<4>[4792, ping] [ 1190.692622] do_exit: exit code=512
+<4>[4798, ping] [ 1191.694297] do_exit: exit code=512
+<4>[4804, ping] [ 1192.692557] do_exit: exit code=512
+<4>[4811, ping] [ 1192.692649] do_exit: exit code=512
+<4>[4829, ping] [ 1193.693987] do_exit: exit code=512
+<4>[4817, ping] [ 1193.694029] do_exit: exit code=512
+<4>[4841, ping] [ 1193.697951] do_exit: exit code=512
+<4>[4835, ping] [ 1193.698436] do_exit: exit code=512
+<4>[4823, ping] [ 1193.702062] do_exit: exit code=512
+<4>[4845, ping] [ 1194.692396] do_exit: exit code=512
+<4>[4854, ping] [ 1194.692569] do_exit: exit code=512
+<4>[4859, ping] [ 1194.696232] do_exit: exit code=512
+<6>[422, PowerManagerSer] [ 1202.871249] request_suspend_state: sleep (0->3) at 1202869480350 (2013-07-27 01:38:00.181198312 UTC)
+<6>[3076, kworker/u:3] [ 1202.871376] early_suspend: call handlers
+<3>[3076, kworker/u:3] [ 1203.612007] [LCD_DEBUG] leave mipi_otm8018b_lcd_off 
+<4>[4867, ping] [ 1209.692242] do_exit: exit code=512
+<4>[4875, ping] [ 1210.692499] do_exit: exit code=512
+<4>[4881, ping] [ 1211.692464] do_exit: exit code=512
+<4>[93, khsclntd] [ 1247.818054] report_hs_key:Press power key ,key=81 ,now time (01:38:45.127918344 UTC)
+<6>[425, WindowManagerPo] [ 1247.819547] request_suspend_state: wakeup (3->0) at 1247817708998 (2013-07-27 01:38:45.129428625 UTC)
+<6>[970, kworker/u:4] [ 1247.819649] late_resume: call handlers
+<4>[422, PowerManagerSer] [ 1247.829549] Update G-sensor Odr ,delay_time is 68
+<4>[422, PowerManagerSer] [ 1247.830621] Update G-sensor Odr ,delay_time is 200
+<4>[422, PowerManagerSer] [ 1247.831426] Update G-sensor Odr ,delay_time is 68
+<4>[970, kworker/u:4] [ 1247.851789] lcd_debug_malloc_get_para: Can not open /data/hw_lcd_init_param.txt
+<4>[93, khsclntd] [ 1247.982232] report_hs_key:Press power key ,key=255 ,now time (01:38:45.292171789 UTC)
+<3>[970, kworker/u:4] [ 1248.153542] [LCD_DEBUG] leave mipi_otm8018b_lcd_on 
+<4>[970, kworker/u:4] [ 1248.153586] msm_fb_blank_sub:Waiting for LCD resume ,then set backlight level=27
+<3>[970, kworker/u:4] [ 1248.248337] synaptics_rmi4_touch is resume!
+<6>[970, kworker/u:4] [ 1248.253591] late_resume: done
+<4>[609, enmod.trebuchet] [ 1300.453239] idle_stats_device: Overwriting samples
+<4>[4942, sh] [ 1303.179802] do_exit: exit code=256
+<4>[484, ndroid.systemui] [ 1303.355456] idle_stats_device: Overwriting samples
+<4>[484, ndroid.systemui] [ 1303.733719] idle_stats_device: Overwriting samples
+<4>[484, ndroid.systemui] [ 1306.517957] idle_stats_device: Overwriting samples
+<4>[293, SurfaceFlinger] [ 1307.788882] idle_stats_device: Overwriting samples
+<4>[82, kbatteryclntcbd] [ 1308.089322] batt_id_lim_volt = 4200
+<4>[609, enmod.trebuchet] [ 1312.473237] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1325.105634] idle_stats_device: Overwriting samples
+<4>[293, SurfaceFlinger] [ 1328.465727] idle_stats_device: Overwriting samples
+<4>[293, SurfaceFlinger] [ 1341.434789] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1351.142191] idle_stats_device: Overwriting samples
+<4>[82, kbatteryclntcbd] [ 1352.923302] batt_id_lim_volt = 4200
+<4>[687, ndroid.settings] [ 1356.533199] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1360.554199] idle_stats_device: Overwriting samples
+<6>[1, init] [ 1362.941177] usb_autorun: fsg_close_all_file
+<3>[1, init] [ 1362.945919] enable_store: android_usb: already disabled
+<6>[1, init] [ 1362.946751] nluns_store: nluns_store: nluns = 2
+<6>[1, init] [ 1362.947072] cdrom_index_store: cdrom_index_store: no cdrom 
+<6>[1, init] [ 1362.947429] functions_store: functions_store: mass_storage,adb
+<6>[1, init] [ 1362.947826] adb_bind_config
+<6>[5051, adbd] [ 1362.956366] adb_open
+<4>[687, ndroid.settings] [ 1365.102744] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1370.808032] idle_stats_device: Overwriting samples
+<6>[3019, kworker/0:0] [ 1377.487082] msm_otg_resume: usb exited from low power mode
+<4>[82, kbatteryclntcbd] [ 1377.525256] batt_id_lim_volt = 4200
+<6>[3019, kworker/0:0] [ 1377.712339] android_work: android_work: did not send uevent (0 0   (null))
+<6>[3019, kworker/0:0] [ 1377.966897] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[0, swapper/0] [ 1377.968286] android_usb gadget: high-speed config #1: android
+<6>[3019, kworker/0:0] [ 1378.022057] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<4>[484, ndroid.systemui] [ 1378.303439] idle_stats_device: Overwriting samples
+<4>[484, ndroid.systemui] [ 1378.573957] idle_stats_device: Overwriting samples
+<6>[3019, kworker/0:0] [ 1378.711944] 
+<6>[3019, kworker/0:0] [ 1378.711974] Charger Type: STD DOWNSTREAM PORT
+<4>[82, kbatteryclntcbd] [ 1382.601622] batt_id_lim_volt = 4200
+<4>[609, enmod.trebuchet] [ 1382.891486] idle_stats_device: Overwriting samples
+<4>[609, enmod.trebuchet] [ 1384.268431] idle_stats_device: Overwriting samples
+<4>[609, enmod.trebuchet] [ 1384.878377] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1387.492671] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1391.104267] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1397.181192] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1399.437827] idle_stats_device: Overwriting samples
+<4>[687, ndroid.settings] [ 1422.646946] idle_stats_device: Overwriting samples
+<4>[82, kbatteryclntcbd] [ 1427.730364] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1432.686434] batt_id_lim_volt = 4200
+<6>[422, PowerManagerSer] [ 1482.589551] request_suspend_state: sleep (0->3) at 1482587769109 (2013-07-27 01:42:39.899482071 UTC)
+<6>[970, kworker/u:4] [ 1482.589706] early_suspend: call handlers
+<3>[970, kworker/u:4] [ 1483.332067] [LCD_DEBUG] leave mipi_otm8018b_lcd_off 
+<4>[82, kbatteryclntcbd] [ 1492.507392] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1542.358731] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1547.373181] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1572.268829] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1622.120096] batt_id_lim_volt = 4200
+<4>[82, kbatteryclntcbd] [ 1721.822241] batt_id_lim_volt = 4200
+<4>[93, khsclntd] [ 1879.997207] report_hs_key:Press power key ,key=81 ,now time (01:49:17.307386420 UTC)
+<6>[425, WindowManagerPo] [ 1879.998887] request_suspend_state: wakeup (3->0) at 1879997367673 (2013-07-27 01:49:17.309088971 UTC)
+<6>[970, kworker/u:4] [ 1879.999002] late_resume: call handlers
+<4>[422, PowerManagerSer] [ 1880.009722] Update G-sensor Odr ,delay_time is 68
+<4>[422, PowerManagerSer] [ 1880.010812] Update G-sensor Odr ,delay_time is 200
+<4>[422, PowerManagerSer] [ 1880.011647] Update G-sensor Odr ,delay_time is 68
+<4>[970, kworker/u:4] [ 1880.031284] lcd_debug_malloc_get_para: Can not open /data/hw_lcd_init_param.txt
+<4>[93, khsclntd] [ 1880.162914] report_hs_key:Press power key ,key=255 ,now time (01:49:17.473031532 UTC)
+<3>[970, kworker/u:4] [ 1880.329976] [LCD_DEBUG] leave mipi_otm8018b_lcd_on 
+<4>[970, kworker/u:4] [ 1880.330102] msm_fb_blank_sub:Waiting for LCD resume ,then set backlight level=27
+<3>[970, kworker/u:4] [ 1880.425416] synaptics_rmi4_touch is resume!
+<6>[970, kworker/u:4] [ 1880.430082] late_resume: done
+<6>[425, WindowManagerPo] [ 1890.011302] request_suspend_state: sleep (0->3) at 1890009519155 (2013-07-27 01:49:27.321232118 UTC)
+<6>[970, kworker/u:4] [ 1890.011522] early_suspend: call handlers
+<3>[970, kworker/u:4] [ 1890.752052] [LCD_DEBUG] leave mipi_otm8018b_lcd_off 
+<4>[5078, sh] [ 1897.110291] do_exit: exit code=256
+<4>[93, khsclntd] [ 1898.403254] report_hs_key:Press power key ,key=81 ,now time (01:49:35.713227317 UTC)
+<6>[425, WindowManagerPo] [ 1898.404861] request_suspend_state: wakeup (3->0) at 1898403123910 (2013-07-27 01:49:35.714843540 UTC)
+<6>[5073, kworker/u:0] [ 1898.405476] late_resume: call handlers
+<4>[422, PowerManagerSer] [ 1898.413617] Update G-sensor Odr ,delay_time is 68
+<4>[422, PowerManagerSer] [ 1898.414707] Update G-sensor Odr ,delay_time is 200
+<4>[422, PowerManagerSer] [ 1898.415529] Update G-sensor Odr ,delay_time is 68
+<4>[5073, kworker/u:0] [ 1898.441709] lcd_debug_malloc_get_para: Can not open /data/hw_lcd_init_param.txt
+<4>[93, khsclntd] [ 1898.554361] report_hs_key:Press power key ,key=255 ,now time (01:49:35.864342769 UTC)
+<3>[5073, kworker/u:0] [ 1898.740056] [LCD_DEBUG] leave mipi_otm8018b_lcd_on 
+<4>[5073, kworker/u:0] [ 1898.740179] msm_fb_blank_sub:Waiting for LCD resume ,then set backlight level=25
+<3>[5073, kworker/u:0] [ 1898.839684] synaptics_rmi4_touch is resume!
+<6>[5073, kworker/u:0] [ 1898.840154] late_resume: done
+<4>[5092, sh] [ 1902.612504] do_exit: exit code=256
+<4>[293, SurfaceFlinger] [ 1904.870041] idle_stats_device: Overwriting samples
+<4>[5094, sh] [ 1907.399426] do_exit: exit code=256
+<6>[422, PowerManagerSer] [ 1965.261664] request_suspend_state: sleep (0->3) at 1965259879534 (2013-07-27 01:50:42.571594162 UTC)
+<6>[27, kworker/u:2] [ 1965.262791] early_suspend: call handlers
+<3>[27, kworker/u:2] [ 1965.981824] [LCD_DEBUG] leave mipi_otm8018b_lcd_off 
