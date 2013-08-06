@@ -33,4 +33,5 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/proprietary/system/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     $(COMMON_PATH)/proprietary/system/lib/libOpenVG.so:system/lib/libOpenVG.so \
     $(COMMON_PATH)/proprietary/system/lib/libC2D2.so:system/lib/libC2D2.so \
-    $(COMMON_PATH)/proprietary/system/lib/libgsl.so:system/lib/libgsl.so
+    $(COMMON_PATH)/proprietary/system/lib/libgsl.so:system/lib/libgsl.so \
+    $(COMMON_PATH)/proprietary/system/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so
